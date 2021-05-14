@@ -42,25 +42,15 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-weight: normal;
 	position: relative;
+	display: flex;
+	justify-content: center;
 }
 
 .site__wrapper {
-	width: 100%;
-	max-width: 480px;
+	width: 480px;
 	height: auto;
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
+	margin: 0 auto;
 	overflow: hidden;
 }
-
-//.container {
-//	width: 1140px;
-//	height: auto;
-//	margin: 0 auto;
-//	position: relative;
-//}
 
 
